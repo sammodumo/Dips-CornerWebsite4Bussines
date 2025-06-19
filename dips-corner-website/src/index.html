@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIP's CoRNER</title>
+    <link rel="icon" type="image/png" href="image/dips.banner.png" sizes="32x32">
+    <link rel="shortcut icon" type="image/png" href="image/dips.banner.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-flex">
+            <a href="index.html" class="logo-link">
+                <img src="image/dips.banner.png" alt="DIP's CoRNER Logo" class="logo-img">
+            </a>
+            <div class="menu-container">
+                <button class="hamburger" aria-label="Open navigation" tabindex="0">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav id="main-nav">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <h1 class="african-heading">
+            <span class="pot-icon" aria-hidden="true">
+                <!-- Simple African pot SVG -->
+                <svg width="38" height="38" viewBox="0 0 38 38" style="vertical-align: middle;" xmlns="http://www.w3.org/2000/svg">
+                    <ellipse cx="19" cy="28" rx="13" ry="8"/>
+                    <ellipse cx="19" cy="22" rx="16" ry="7"/>
+                    <ellipse cx="19" cy="20" rx="12" ry="4"/>
+                    <rect x="7" y="18" width="24" height="6" rx="3"/>
+                </svg>
+            </span>
+            <span class="heading-text">Welcome to DIP's CoRNER</span>
+        </h1>
+        <span class="sub-services">
+            AFRICAN FOOD <span class="divider">|</span> SHISANYAMA <span class="divider">|</span> DRINKS <span class="divider">|</span> CAR WASH
+        </span>
+    </header>
+    
+    <div class="header-slideshow">
+        <div class="slideshow-indicators">
+            <span class="indicator active"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+            <span class="indicator"></span>
+        </div>
+        <img src="image/banner1.jpg" alt="African Food" class="slide-img active">
+        <img src="image/banner5.jpg" alt="Shisanyama" class="slide-img">
+        <img src="image/banner3.jpg" alt="Drinks" class="slide-img">
+        <img src="image/banner4.jpg" alt="Car Wash" class="slide-img">
+    </div>
+    
+    <main>
+        <section id="food" class="service-section">
+            <h2>African Food</h2>
+            <p>Explore our delicious range of traditional African dishes.</p>
+            <div class="service-gallery">
+                <img src="image/afri1.jpg" alt="African Dish 1" class="service-img">
+                <img src="image/afri2.jpg" alt="African Dish 2" class="service-img">
+                <img src="image/afri3.jpg" alt="African Dish 3" class="service-img">
+                <img src="image/afri4.jpg" alt="African Dish 4" class="service-img">
+            </div>
+            <div class="button-group">
+                <button class="menu-btn" data-menu="food-menu">Check Menu</button>
+                <button class="order-btn">Place Order Here</button>
+            </div>
+            <div class="menu-image" id="food-menu">
+                <img src="image/menu3.jpg" alt="African Food Menu">
+            </div>
+        </section>
+        
+        <section id="shisanyama" class="service-section">
+            <h2>Shisanyama</h2>
+            <p>Enjoy our grilled meat specialties, perfect for any occasion.</p>
+            <div class="service-gallery">
+                <img src="image/shisa1.jpg" alt="Shisanyama 1" class="service-img">
+                <img src="image/shisa2.jpg" alt="Shisanyama 2" class="service-img">
+                <img src="image/shisa4.jpeg" alt="Shisanyama 3" class="service-img">
+                <img src="image/SishaNyama1.jpeg" alt="Shisanyama 4" class="service-img">
+            </div>
+            <div class="button-group">
+                <button class="menu-btn" data-menu="shisanyama-menu">Check Menu</button>
+                <button class="order-btn">Place Order Here</button>
+            </div>
+            <div class="menu-image" id="shisanyama-menu">
+                <img src="image/shisanyama-menu.jpg" alt="Shisanyama Menu">
+            </div>
+        </section>
+        
+        <section id="drinks" class="service-section">
+            <h2>Drinks</h2>
+            <p>Quench your thirst with our selection of refreshing beverages.</p>
+            <div class="service-gallery">
+                <img src="image/drink1.jpg" alt="Drink 1" class="service-img">
+                <img src="image/drink2.jpg" alt="Drink 2" class="service-img">
+                <img src="image/drink3.jpg" alt="Drink 3" class="service-img">
+                <img src="image/drink4.jpg" alt="Drink 4" class="service-img">
+            </div>
+            <div class="button-group">
+                <button class="menu-btn" data-menu="drinks-menu">Check Menu</button>
+                <button class="order-btn">Place Order Here</button>
+            </div>
+            <div class="menu-image" id="drinks-menu">
+                <img src="image/drinks-menu.jpg" alt="Drinks Menu">
+            </div>
+        </section>
+        
+        <section id="carwash" class="service-section">
+            <h2>Car Wash Services</h2>
+            <p>Keep your vehicle looking pristine with our professional car wash services.</p>
+            <div class="service-gallery">
+                <img src="image/carwash1.jpg" alt="Car Wash 1" class="service-img">
+                <img src="image/carwash2.jpg" alt="Car Wash 2" class="service-img">
+                <img src="image/carwash3.jpg" alt="Car Wash 3" class="service-img">
+                <img src="image/carwash4.jpg" alt="Car Wash 4" class="service-img">
+            </div>
+            <div class="button-group">
+                <button class="menu-btn" data-menu="carwash-menu">Check Prices</button>
+                <button class="order-btn">Book Here</button>
+            </div>
+            <div class="menu-image" id="carwash-menu">
+                <img src="image/carwash-menu.jpg" alt="Car Wash Prices">
+            </div>
+        </section>
+        
+        <section id="team" class="team-section">
+            <h2>Meet Our Team</h2>
+            <div class="team-gallery">
+                <div class="team-member">
+                    <img src="image/staff1.jpg" alt="Staff Member 1" class="team-img">
+                    <h3>Dipuo Ndlovu</h3>
+                    <p>Owner & Chef</p>
+                </div>
+                <div class="team-member">
+                    <img src="image/staff4.jpg" alt="Staff Member 2" class="team-img">
+                    <h3>Thabo Mokoena</h3>
+                    <p>Grill Master</p>
+                </div>
+                <div class="team-member">
+                    <img src="image/staff3.jpg" alt="Staff Member 3" class="team-img">
+                    <h3>Lerato Dlamini</h3>
+                    <p>Beverage Specialist</p>
+                </div>
+                <div class="team-member">
+                    <img src="image/staff2.jpg" alt="Staff Member 4" class="team-img">
+                    <h3>Sipho Khumalo</h3>
+                    <p>Car Wash Lead</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Place Order Section -->
+        <section id="order-section" class="order-section">
+            <div class="order-content">
+                <button class="close-order-btn" aria-label="Close Order">&times;</button>
+                <h2>Place Your Order</h2>
+                <form id="order-form">
+                    <label for="order-name">Name:</label>
+                    <input type="text" id="order-name" name="order-name" required>
+
+                    <label for="order-phone">Phone:</label>
+                    <input type="tel" id="order-phone" name="order-phone" required>
+
+                    <label for="order-details">Order Details:</label>
+                    <textarea id="order-details" name="order-details" rows="4" required placeholder="What would you like to order?"></textarea>
+
+                    <button type="submit" class="submit-order-btn">Submit Order</button>
+                </form>
+                <div id="order-success" class="order-success" style="display:none;">
+                    <p>Thank you! Your order has been received.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-social">
+            <a href="https://facebook.com/" target="_blank" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/dipscorner_koster/" target="_blank" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/your-number" target="_blank" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+        </div>
+        <p>&copy; 2025 DIP's CoRNER. All rights reserved.</p>
+    </footer>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
